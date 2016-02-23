@@ -1,0 +1,16 @@
+{
+  "name": "wearable-reference-design-example-user-interface",
+  "version": "0.0.0",
+  "bin": "./source",
+  "private": true,
+  "description": "Example application demonstrating the user interface on the Wearable Reference Design.",
+  "author": "Marcus Chang <marcus.chang@arm.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "mbed-drivers": "~0.12.0",
+    "uiframework": "^4.0.0",
+    "uif-ui-watch-face-wrd": "^3.0.0",
+    "uif-ui-touch-calibration-wrd": "^3.0.0",
+    "mbed-time": "^1.2.0"
+  }
+}
