@@ -58,9 +58,9 @@ private:
 
     InterruptIn forwardButton;
 
-#if defined(YOTTA_CFG_HARDWARE_WEARABLE_REFERENCE_DESIGN_TOUCH_SLIDER_BACK)
+#if defined(YOTTA_CFG_HARDWARE_WRD_TOUCH_SLIDER_BACK)
     AnalogButton backButton;
-#elif defined(YOTTA_CFG_HARDWARE_WEARABLE_REFERENCE_DESIGN_BUTTON_PIN_BACKWARD)
+#elif defined(YOTTA_CFG_HARDWARE_WRD_BUTTON_BACKWARD_GPIO_PIN)
     InterruptIn backButton;
 #else
 #error Platform not implemented
