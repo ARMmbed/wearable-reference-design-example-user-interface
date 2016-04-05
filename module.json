@@ -1,6 +1,6 @@
 {
   "name": "wearable-reference-design-example-user-interface",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "bin": "./source",
   "private": true,
   "description": "Example application demonstrating the user interface on the Wearable Reference Design.",
