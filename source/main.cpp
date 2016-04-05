@@ -17,8 +17,6 @@
 
 #include "mbed-drivers/mbed.h"
 
-#include "wrd-utilities/SharedModules.h"
-
 #include "uif-matrixlcd/MatrixLCD.h"
 #include "UIFramework/UIFramework.h"
 #include "UI.h"
