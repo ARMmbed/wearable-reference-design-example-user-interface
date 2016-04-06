@@ -60,7 +60,7 @@ private:
 
 #if defined(YOTTA_CFG_HARDWARE_WRD_TOUCH_SLIDER_BACK)
     AnalogButton backButton;
-#elif defined(YOTTA_CFG_HARDWARE_WRD_BUTTON_BACKWARD_GPIO_PIN)
+#elif defined(YOTTA_CFG_HARDWARE_WRD_BUTTON_BUTTON1_PIN)
     InterruptIn backButton;
 #else
 #error Platform not implemented
