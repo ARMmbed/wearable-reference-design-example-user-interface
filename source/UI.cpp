@@ -40,7 +40,8 @@
 #if defined(YOTTA_CFG_HARDWARE_WRD_BUTTON_BUTTON0_PIN)
 #define BUTTON_FORWARD YOTTA_CFG_HARDWARE_WRD_BUTTON_BUTTON0_PIN
 #else
-#error WRD Button not defined
+#define BUTTON_FORWARD NC
+#warning WRD Button not defined
 #endif
 
 #if defined(YOTTA_CFG_HARDWARE_WRD_TOUCH_SLIDER_BACK)
@@ -48,7 +49,8 @@
 #elif defined(YOTTA_CFG_HARDWARE_WRD_BUTTON_BUTTON1_PIN)
 #define BUTTON_BACK YOTTA_CFG_HARDWARE_WRD_BUTTON_BUTTON1_PIN
 #else
-#error WRD Back button not defined
+#define BUTTON_BACK NC
+#warning WRD Back button not defined
 #endif
 
 UI::UI()
